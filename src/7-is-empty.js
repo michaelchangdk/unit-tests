@@ -1,6 +1,5 @@
 export const isEmpty = (stringArrayOrObject) => {
   const type = typeof stringArrayOrObject
-
   if (type === 'string' && stringArrayOrObject === "") {
       return true;
     } if (type === 'string' && stringArrayOrObject !== "") {

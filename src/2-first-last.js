@@ -7,3 +7,5 @@ export const firstLast = (items) => {
   return `First: ${items[0]}, Last: ${items[items.length - 1]}`
 }
 }
+
+// items.length === 0 can also be written as !items.length (becomes boolean, returns false)
